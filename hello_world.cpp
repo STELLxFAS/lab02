@@ -2,13 +2,13 @@
 #include <string>
 
 int main() {
-    // Запрашиваем имя пользователя
+    // Get user name
     std::string name;
     std::cout << "Enter your name: ";
     std::cin >> name;
     
-    // Выводим приветствие
+    // Display greeting
     std::cout << "Hello world from " << name << std::endl;
     
-    return 0; // Программа завершена успешно
+    return 0; // Program finished successfully
 }
